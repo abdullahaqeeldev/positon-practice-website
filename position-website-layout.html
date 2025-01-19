@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+
+    }
+
+    body {
+
+        background-image: url(freepik__upload__56390.png);
+        background-position: center;
+        background-size: 1500px;
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        height: 1000px;
+
+
+
+
+
+    }
+
+    .head {
+        width: 100%;
+        height: 100px;
+
+    }
+
+    .head h1 {
+        font-family: "Poppins", serif;
+        text-align: center;
+        font-size: 30px;
+
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    nav {
+        width: 100%;
+        height: 100px;
+        background-color: rgb(39, 39, 39);
+    }
+
+    img {
+        vertical-align: middle;
+        color: yellow;
+        height: 100px;
+        width: 100px;
+
+    }
+
+    .icons1 {
+        width: 600px;
+        display: inline-block;
+        margin-left: 200px;
+        margin-top: 10px;
+
+    }
+
+    .icons1 ul li {
+
+        display: inline-block;
+        margin-left: 60px;
+
+    }
+
+    .icons1 ul li a {
+        text-decoration: none;
+        color: yellow;
+        font-size: 20px;
+        font-family: "Poppins", serif;
+    }
+
+    .icons1 ul li a:hover {
+        text-decoration: underline;
+
+    }
+
+    .icons2 {
+
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 110px;
+    }
+
+    .icons2 button {
+        display: inline-block;
+        width: 80px;
+        height: 40px;
+        border-radius: 10px;
+        background-color: yellow;
+        font-family: "Poppins", serif;
+        font-size: 15px;
+        border: none;
+        font-weight: 600;
+        margin-right: 30px;
+
+
+    }
+
+    .icons2 button:hover {
+        background-color: rgb(0, 0, 0);
+        color: yellow;
+    }
+
+    #aboutus1 {
+        width: 100%;
+        height: 600px;
+
+
+    }
+    #aboutus1 h1{
+        text-align: center;
+        font-family: "Poppins", serif;
+    }
+    #aboutus1 h4{
+        text-align: center;
+        font-family: "Poppins", serif;
+
+    }
+
+    #aboutus1 img {
+
+        height: 400px;
+        width: 400px;
+        margin-top: 80px;
+        border-radius: 10px;
+
+
+    }
+
+    #aboutus1 p {
+        display: inline-block;
+        font-family: "Poppins", serif;
+        width: 700px;
+        margin-left: 30px;
+        margin-right: 60px;
+        padding-top: 80px;
+        vertical-align: middle;
+
+
+    }
+
+    .aboutus2 {
+        width: 100%;
+        height: 600px;
+
+
+    }
+
+    .aboutus2 img {
+
+        height: 400px;
+        margin-left: 40px;
+        width: 400px;
+        margin-top: 80px;
+        border-radius: 10px;
+
+
+    }
+
+    .aboutus2 p {
+        display: inline-block;
+        font-family: "Poppins", serif;
+        width: 700px;
+        margin-right: 30px;
+        margin-left: 60px;
+        padding-top: 80px;
+        vertical-align: middle;
+
+
+    }
+
+    .aboutus3 {
+        width: 100%;
+        height: 600px;
+
+
+    }
+
+    .aboutus3 img {
+
+        height: 400px;
+        width: 400px;
+        margin-top: 80px;
+        border-radius: 10px;
+
+
+    }
+
+    .aboutus3 p {
+        display: inline-block;
+        font-family: "Poppins", serif;
+        width: 700px;
+        margin-left: 30px;
+        margin-right: 60px;
+        padding-top: 80px;
+        vertical-align: middle;
+
+
+    }
+
+    .aboutus4 {
+        width: 100%;
+        height: 500px;
+
+
+    }
+
+    .aboutus4 img {
+
+        height: 400px;
+        margin-left: 40px;
+        width: 400px;
+        margin-top: 80px;
+        border-radius: 10px;
+
+
+    }
+
+    .aboutus4 p {
+        display: inline-block;
+        font-family: "Poppins", serif;
+        width: 700px;
+        margin-right: 30px;
+        margin-left: 60px;
+        padding-top: 80px;
+        vertical-align: middle;
+
+
+    }
+
+    .card1 {
+        margin-top: 40px;
+        height: 300px;
+        width: 300px;
+        margin-left: 300px;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: inline-block;
+    }
+
+    .card1 img {
+        height: 100px;
+        width: 100px;
+        margin-left: 100px;
+
+    }
+
+    .card1 p {
+        font-family: "Poppins", serif;
+        margin-top: 20px;
+        text-align: center;
+
+
+    }
+
+    .card2 {
+        height: 300px;
+        width: 300px;
+        margin-left: 150px;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: inline-block;
+    }
+
+    .card2 img {
+        height: 100px;
+        width: 100px;
+        margin-left: 100px;
+
+    }
+
+    .card2 p {
+        font-family: "Poppins", serif;
+        margin-top: 20px;
+        text-align: center;
+
+    }
+
+    .card3 {
+        margin-top: 40px;
+        height: 300px;
+        width: 300px;
+        margin-left: 300px;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: inline-block;
+    }
+
+    .card3 img {
+        height: 100px;
+        width: 100px;
+        margin-left: 100px;
+
+    }
+
+    .card3 p {
+        font-family: "Poppins", serif;
+        margin-top: 20px;
+        text-align: center;
+
+    }
+
+    .card4 {
+        margin-top: 30px;
+        height: 300px;
+        width: 300px;
+        margin-left: 150px;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: inline-block;
+    }
+
+    .card4 img {
+        height: 100px;
+        width: 100px;
+        margin-left: 100px;
+
+    }
+
+    .card4 p {
+        font-family: "Poppins", serif;
+        margin-top: 20px;
+        text-align: center;
+
+    }
+
+    .sec2 {
+        margin-top: 30px;
+    }
+
+    .sec2 h1 {
+        text-align: center;
+        font-family: "Poppins", serif;
+        font-family: 30px;
+
+
+    }
+
+    .sec2 p {
+        text-align: center;
+        font-family: "Poppins", serif;
+        font-family: 30px;
+    }
+
+    .projects h1 {
+        margin-top: 40px;
+        text-align: center;
+        font-family: "Poppins", serif;
+        font-family: 30px;
+
+    }
+
+    .projects p {
+        text-align: center;
+        font-family: "Poppins", serif;
+        font-family: 30px;
+    }
+
+    #home {
+        text-align: center;
+        height: 1000px;
+        width: 100%;
+        margin-top: 200px;
+
+
+
+    }
+
+    #home h1 {
+        font-family: "Poppins", serif;
+        font-size: 60px;
+
+
+
+    }
+
+    #home h3 {
+        font-family: "Poppins", serif;
+        padding-top: 200px;
+
+
+    }
+
+    #home button {
+        margin-top: 30px;
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        font-family: "Poppins", serif;
+        font-size: 20px;
+        border: none;
+        background-color: yellow;
+    }
+
+    #home button:hover {
+        background-color: rgb(197, 197, 29);
+        font-weight: 600;
+    }
+
+    .aboutus1 h1 {
+        margin-top: 40px;
+        text-align: center;
+        font-family: "Poppins", serif;
+        font-family: 30px;
+    }
+
+    .aboutus1 h4 {
+        text-align: center;
+        font-family: "Poppins", serif;
+        font-family: 30px;
+        font-weight: 400;
+
+    }
+
+    .first img {
+        height: 500px;
+        width: 400px;
+
+    }
+
+    .first h4 {
+        font-family: "Poppins", serif;
+        font-size: 15px;
+
+
+
+    }
+
+    .first {
+        display: inline-block;
+        height: 550px;
+        width: 400px;
+        margin-left: 200px;
+        margin-top: 100px;
+
+    }
+
+    .first2 img {
+        height: 500px;
+        width: 400px;
+
+    }
+
+    .first2 h4 {
+        font-family: "Poppins", serif;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+
+
+
+    }
+
+    .first2 {
+        display: inline-block;
+        height: 550px;
+        width: 400px;
+        margin-left: 50px;
+
+
+    }
+
+    .first3 img {
+        height: 500px;
+        width: 400px;
+
+    }
+
+    .first3 h4 {
+        font-family: "Poppins", serif;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+
+
+
+    }
+
+    .first3 {
+        display: inline-block;
+        height: 550px;
+        width: 400px;
+        margin-left: 200px;
+        margin-top: 40px;
+
+
+    }
+
+    .first4 img {
+        height: 500px;
+        width: 400px;
+
+    }
+
+    .first4 h4 {
+        font-family: "Poppins", serif;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+
+
+
+    }
+
+    .first4 {
+        display: inline-block;
+        height: 550px;
+        width: 400px;
+        margin-left: 50px;
+
+
+    }
+
+    #projects h1 {
+        margin-top: 50px;
+        text-align: center;
+        font-family: "Poppins", serif;
+    }
+    #projects p{
+        text-align: center;
+        font-family: "Poppins", serif;
+
+    }
+
+    #projects {
+        margin-top: 30px;
+    }
+
+    #footer {
+        height: 200px;
+        width: 100%;
+        background-color: rgb(39, 39, 39);
+    }
+
+    .apps ul li a img {
+        background-color: yellow;
+
+        border-radius: 100px;
+        height: 40px;
+        width: 40px;
+        
+
+
+    }
+    .apps ul li a img:hover{
+        background-color: rgb(156, 156, 19);
+        
+    }
+ 
+    .apps ul li {
+        display: inline-block;
+        margin-right: 10px;
+
+
+
+    }
+    .apps ul {
+        display: inline-block;
+        
+        
+        
+    }
+   .apps{
+   
+    margin-left: 500px;
+    display: inline-block;
+    width: 250px;
+   
+    
+    
+    
+   }
+    #footer {
+        text-align: center;
+        margin-top: 50px;
+      
+
+    
+    }
+    #footer h1{
+        color: yellow;
+        display: inline-block;
+        font-family: "Poppins", serif;
+        padding-top: 60px;
+        width: 500px;
+
+    }
+
+</style>
+
+<body>
+    <header>
+        <nav>
+            <img src="icons8-artstation-96.png" alt="">
+            <div class="icons1">
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#aboutus1">aboutus</a></li>
+                    <li><a href="#footer">contactus</a></li>
+                    <li><a href="#projects">projects</a></li>
+                </ul>
+            </div>
+            <div class="icons2">
+                <button>login</button>
+                <button>signup</button>
+
+            </div>
+        </nav>
+    </header>
+    <div id="home">
+        <h3>World's Leading Industry Corporation</h3>
+        <h1>One Industry All Solution</h1>
+        <button>learn more</button>
+    </div>
+
+
+    <div id="aboutus1">
+        <h1>ABOUTUS</h1>
+        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, id suscipit! </h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem voluptas rerum natus cum,
+            voluptates repudiandae excepturi id quas ipsam vitae sed facere dolorum magni nesciunt. Ab
+            doloribus labore sequi eligendi!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla quidem
+            officia
+            cumque aliquid maiores soluta eum voluptate deserunt iure. A quo voluptas quisquam officiis
+            odit repellendus, neque tempora distinctio fugit? Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Saepe ad itaque, cumque quod exercitationem officiis fuga amet dolor dolore sit recusandae veniam
+            . Facilis odit reiciendis, quasi cumque officiis illum ea?Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Quidem voluptas rerum natus cum,
+            voluptates repudiandae excepturi id quas ipsam vitae sed facere dolorum magni nesciunt. Ab
+            doloribus labore sequi eligendi!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla quidem
+            officia
+            cumque aliquid maiores soluta eum voluptate deserunt iure. A quo voluptas quisquam officiis
+            odit repellendus, neque tempora distinctio fugit? Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Saepe ad itaque, cumque quod exercitationem officiis fuga amet dolor dolore sit recusandae veniam
+            . Facilis odit reiciendis, quasi cumque officiis illum ea?</p>
+
+        <img src="scott-blake-x-ghf9LjrVg-unsplash.jpg" alt="">
+
+    </div>
+    <div class="aboutus2">
+
+        <img src="scott-blake-x-ghf9LjrVg-unsplash.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem voluptas rerum natus cum,
+            voluptates repudiandae excepturi id quas ipsam vitae sed facere dolorum magni nesciunt. Ab
+            doloribus labore sequi eligendi!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla quidem
+            officia
+            cumque aliquid maiores soluta eum voluptate deserunt iure. A quo voluptas quisquam officiis
+            odit repellendus, neque tempora distinctio fugit? Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Saepe ad itaque, cumque quod exercitationem officiis fuga amet dolor dolore sit recusandae veniam
+            . Facilis odit reiciendis, quasi cumque officiis illum ea?Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Quidem voluptas rerum natus cum,
+            voluptates repudiandae excepturi id quas ipsam vitae sed facere dolorum magni nesciunt. Ab
+            doloribus labore sequi eligendi!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla quidem
+            officia
+            cumque aliquid maiores soluta eum voluptate deserunt iure. A quo voluptas quisquam officiis
+            odit repellendus, neque tempora distinctio fugit? Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Saepe ad itaque, cumque quod exercitationem officiis fuga amet dolor dolore sit recusandae veniam
+            . Facilis odit reiciendis, quasi cumque officiis illum ea?</p>
+
+
+    </div>
+    <div class="aboutus3">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem voluptas rerum natus cum,
+            voluptates repudiandae excepturi id quas ipsam vitae sed facere dolorum magni nesciunt. Ab
+            doloribus labore sequi eligendi!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla quidem
+            officia
+            cumque aliquid maiores soluta eum voluptate deserunt iure. A quo voluptas quisquam officiis
+            odit repellendus, neque tempora distinctio fugit? Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Saepe ad itaque, cumque quod exercitationem officiis fuga amet dolor dolore sit recusandae veniam
+            . Facilis odit reiciendis, quasi cumque officiis illum ea?Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Quidem voluptas rerum natus cum,
+            voluptates repudiandae excepturi id quas ipsam vitae sed facere dolorum magni nesciunt. Ab
+            doloribus labore sequi eligendi!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla quidem
+            officia
+            cumque aliquid maiores soluta eum voluptate deserunt iure. A quo voluptas quisquam officiis
+            odit repellendus, neque tempora distinctio fugit? Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Saepe ad itaque, cumque quod exercitationem officiis fuga amet dolor dolore sit recusandae veniam
+            . Facilis odit reiciendis, quasi cumque officiis illum ea?</p>
+
+        <img src="scott-blake-x-ghf9LjrVg-unsplash.jpg" alt="">
+
+    </div>
+    <div class="aboutus4">
+
+        <img src="scott-blake-x-ghf9LjrVg-unsplash.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem voluptas rerum natus cum,
+            voluptates repudiandae excepturi id quas ipsam vitae sed facere dolorum magni nesciunt. Ab
+            doloribus labore sequi eligendi!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla quidem
+            officia
+            cumque aliquid maiores soluta eum voluptate deserunt iure. A quo voluptas quisquam officiis
+            odit repellendus, neque tempora distinctio fugit? Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Saepe ad itaque, cumque quod exercitationem officiis fuga amet dolor dolore sit recusandae veniam
+            . Facilis odit reiciendis, quasi cumque officiis illum ea?Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Quidem voluptas rerum natus cum,
+            voluptates repudiandae excepturi id quas ipsam vitae sed facere dolorum magni nesciunt. Ab
+            doloribus labore sequi eligendi!Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla quidem
+            officia
+            cumque aliquid maiores soluta eum voluptate deserunt iure. A quo voluptas quisquam officiis
+            odit repellendus, neque tempora distinctio fugit? Lorem ipsum dolor sit amet, consectetur adipisicing
+            elit. Saepe ad itaque, cumque quod exercitationem officiis fuga amet dolor dolore sit recusandae veniam
+            . Facilis odit reiciendis, quasi cumque officiis illum ea?</p>
+
+    </div>
+
+
+    <div class="sec2">
+        <h1>OUR SERVICES</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit eius enim, </p>
+        <div class="card1">
+            <img src="download (3).png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nostrum alias ex
+                quia debitis beatae dolor quibusdam doloremque odio expedita molestiae assumenda facilis quasi
+                voluptas eum, inventore, aut maiores nam!</p>
+        </div>
+        <div class="card2">
+            <img src="download.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nostrum alias ex
+                quia debitis beatae dolor quibusdam doloremque odio expedita molestiae assumenda facilis quasi
+                voluptas eum, inventore, aut maiores nam!</p>
+        </div>
+        <div class="card3">
+            <img src="download (1).png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nostrum alias ex
+                quia debitis beatae dolor quibusdam doloremque odio expedita molestiae assumenda facilis quasi
+                voluptas eum, inventore, aut maiores nam!</p>
+        </div>
+        <div class="card4">
+            <img src="download (2).png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nostrum alias ex
+                quia debitis beatae dolor quibusdam doloremque odio expedita molestiae assumenda facilis quasi
+                voluptas eum, inventore, aut maiores nam!</p>
+        </div>
+    </div>
+    <div id="projects">
+
+        <h1>OUR LAST PROJECTS</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias velit nisi rerum perferendis </p>
+        <div class="first">
+            <img src="abstract-buildings-4k-du-1280x1024.jpg" alt="">
+            <h4 class="intro1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum </h4>
+        </div>
+        <div class="first2">
+            <img src="hdr-buliding-to-1280x1024.jpg" alt="">
+            <h4 class="intro1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum </h4>
+        </div>
+        <div class="first3">
+            <img src="las-vegas-hdr-wallpaper-1280x1024.jpg" alt="">
+            <h4 class="intro1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum </h4>
+        </div>
+
+        <div class="first4">
+            <img src="lighthouse-building-sky-6c-1280x1024.jpg" alt="">
+            <h4 class="intro1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptatum
+            </h4>
+        </div>
+
+
+    </div>
+    <div id="footer">
+        <h1>all rights rserved 2024-2025</h1>
+        <div class="apps">
+            <ul>
+                <li><a href="#"><img src="icons8-youtube-50.png" alt=""></a></li>
+                <li><a href="#"><img src="icons8-twitter-bird-50.png" alt=""></a></li>
+                <li><a href="#"><img src="icons8-insta-50.png" alt=""></a></li>
+                <li><a href="#"><img src="icons8-facebook-logo-50.png" alt=""></a></li>
+            </ul>
+
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
